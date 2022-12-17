@@ -13,3 +13,9 @@ $assets-base: "../../../dist" !default;
     margin-right: auto;
     max-width: 600px;
 }
+
+button.page-link:focus {
+    color: var(--tblr-pagination-color);
+    background-color: transparent;
+    box-shadow: none;
+}
